@@ -76,10 +76,3 @@ ngrok http 5000
    (`LINE_CHANNEL_ACCESS_TOKEN`, `LINE_CHANNEL_SECRET`)
 6. กด Deploy แล้วรอจน URL พร้อมใช้งาน (เช่น `https://your-app.onrender.com`)
 7. เอา URL นั้น + `/callback` ไปใส่ใน Webhook URL ที่ LINE Console แทนของ ngrok
-
-## ขั้นต่อไปที่แนะนำ (ตามแผนโครงการ)
-
-- ย้าย `KNOWLEDGE_BASE` ไปเก็บในฐานข้อมูลจริง
-- ทำหน้า admin panel เล็กๆ ให้เจ้าหน้าที่แก้ไขข้อมูลเองได้
-- เพิ่ม logging เก็บสถิติว่าคนถามอะไรบ่อย เพื่อวัดผล KPI ตามฟอร์มโครงการ
-- พิจารณาต่อ NLU/AI API ถ้าอยากให้บอทเข้าใจภาษาธรรมชาติมากขึ้น
